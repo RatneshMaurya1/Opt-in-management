@@ -311,7 +311,7 @@ const Welcome = ({ isOpen, setIsOpen }) => {
 
         <div className="save-and-cancle-button">
           <button className="button-1">Cancel</button>
-          <button className="button-2">Save</button>
+          <button className="button-2" onClick={() => setIsOpen(false)}>Save</button>
         </div>
       </div>
     </div>
